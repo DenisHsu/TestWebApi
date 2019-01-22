@@ -21,7 +21,9 @@ namespace TestWebApiByNetCore.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            var Test = "";
+            var vReturn = "value";
+            return vReturn;
         }
 
         // POST api/values
